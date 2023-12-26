@@ -1,0 +1,61 @@
+body
+{   
+    height: 350vh;
+    background-image: linear-gradient(rgb(165, 245, 238),rgb(219, 241, 247));
+}
+#r
+{
+    text-align: center;
+    letter-spacing:5px;
+    background-color: rgb(174, 104, 240) ; 
+}
+#r:hover
+{
+    background-color:rgb(63, 238, 63);
+}
+#im
+{
+    border-radius:50%;
+    margin-left:20px;
+    
+    border: 2px solid black;
+    box-shadow: 2px 2px 10px black;
+}
+.name
+{
+    margin-left:20px;
+    display: inline;
+    text-transform: capitalize;
+    word-spacing:2px;
+    letter-spacing:2px;
+}
+.anch
+{
+    margin-left:20px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size:18px;
+}
+table,th,td
+{   
+     border: 2px solid black;
+     border-collapse: collapse;
+     font-size: 20px;
+     margin-left:20px;
+     background-color: rgb(199, 151, 243);
+    
+}
+
+.pro
+{
+    display: inline;
+    margin-left: 20px;
+    height: 150px;
+    width:180px;
+}
+#im:hover
+{
+    transition: 2s;
+    transform: rotate(360deg);
+}
